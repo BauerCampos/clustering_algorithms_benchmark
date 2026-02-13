@@ -7,7 +7,7 @@ The algorithms K-Means, hierarchical clustering, DBSCAN and Standard Expectation
 ## 📌 Table of Contents
 - [Goal](#-goal)
 - [Dataset](#-dataset)
-- [Preprocessing](#preprocessing)
+- [Preprocessing](#-Preprocessing-&-Feature-Engineering)
 - [Algorithms](#-Algorithms)
 - [Results](#-results)
 
@@ -31,7 +31,7 @@ The algorithms K-Means, hierarchical clustering, DBSCAN and Standard Expectation
 - `pay_amnt1`~`pay_amnt6`: Each installment paid amount
 - `default_payment_next_month`: binary column indicating next month payment
 
-## ⚙️ Preprocessing
+## ⚙️ Preprocessing & Feature Engineering
 
 ### 1. Data Cleaning
 Initial analysis confirmed the dataset was high quality, containing no missing values or significant outliers. Therefore, no imputation or row deletion was required.
@@ -57,7 +57,7 @@ We used PCA to automatically identify orthogonal components that explain the max
 * **Computational Cost:** A standard nested loop (testing every component count against every cluster count) proved computationally infeasible due to exponential complexity.
 * **The Solution:** Instead of a brute-force approach, we implemented a **Strategic Grid Search**. We selected representative values for component counts to balance variance retention with training time, allowing us to map performance patterns without excessive computational overhead.
 
-- [Preprocessing & Feature Engineering](/algorithms/preprocessing)
+- [Preprocessing](/algorithms/preprocessing)
 
 ## 🤖 Algorithms
 - [K-Means](/algorithms/clustering_algorithms/k_means)
