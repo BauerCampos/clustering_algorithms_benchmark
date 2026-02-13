@@ -7,7 +7,7 @@ The algorithms K-Means, hierarchical clustering, DBSCAN and Standard Expectation
 ## 📌 Table of Contents
 - [Goal](#-goal)
 - [Dataset](#-dataset)
-- [Preprocessing](#-preprocessing-feature-engineering)
+- [Preprocessing](#preprocessing--feature-engineering)
 - [Algorithms](#-Algorithms)
 - [Results](#-results)
 
