@@ -57,8 +57,6 @@ We used PCA to automatically identify orthogonal components that explain the max
 * **Computational Cost:** A standard nested loop (testing every component count against every cluster count) proved computationally infeasible due to exponential complexity.
 * **The Solution:** Instead of a brute-force approach, we implemented a **Strategic Grid Search**. We selected representative values for component counts to balance variance retention with training time, allowing us to map performance patterns without excessive computational overhead.
 
-- [Preprocessing](/algorithms/preprocessing)
-
 ## 🤖 Algorithms
 - [K-Means](/algorithms/clustering_algorithms/k_means)
 
