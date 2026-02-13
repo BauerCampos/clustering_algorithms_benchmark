@@ -7,7 +7,7 @@ The algorithms K-Means, hierarchical clustering, DBSCAN and Standard Expectation
 ## 📌 Table of Contents
 - [Goal](#-goal)
 - [Dataset](#-dataset)
-- [Preprocessing](#-preprocessing-and-feature-engineering)
+- [Preprocessing](#-preprocessing)
 - [Algorithms](#-Algorithms)
 - [Results](#-results)
 
@@ -31,7 +31,7 @@ The algorithms K-Means, hierarchical clustering, DBSCAN and Standard Expectation
 - `pay_amnt1`~`pay_amnt6`: Each installment paid amount
 - `default_payment_next_month`: binary column indicating next month payment
 
-## ⚙️ Preprocessing and Feature Engineering
+## ⚙️ Preprocessing
 
 ### 1. Data Cleaning
 Initial analysis confirmed the dataset was high quality, containing no missing values or significant outliers. Therefore, no imputation or row deletion was required.
