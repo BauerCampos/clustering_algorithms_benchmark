@@ -17,19 +17,19 @@ For this algorithm, performance was evaluated using the silhouette score, as it 
 
 - *Dendrogram:*
 
-![Dendrogram](../../../images/hierarchical_clustering/dendrogram.png)
+![Dendrogram](../../../images/agglomerative_clustering/dendrogram.png)
 
 Observation: The dendrogram suggests that for agglomerative clustering two clusters would achieve optimal results
 
 - *Manual Engineering (Method A):*
 
-![Silhouette Score Metric 1](../../../images/hierarchical_clustering/m1_s_score.png)
+![Silhouette Score Metric 1](../../../images/agglomerative_clustering/m1_s_score.png)
 
 Observation: Peak score 0.490 with 2 clusters
 
 - *PCA (Method B):*
 
-![Silhouette Score Metric 2](../../../images/hierarchical_clustering/m2_s_score.png)
+![Silhouette Score Metric 2](../../../images/agglomerative_clustering/m2_s_score.png)
 
 Observation: Peak score 0.446 with 2 components
 
