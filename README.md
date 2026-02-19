@@ -64,7 +64,8 @@ We used PCA to automatically identify orthogonal components that explain the max
 ## 📈 Results
 **Performance Comparison:**
 
-|         Model         | Silhouette Score | Method(A/B) |
-|-----------------------|------------------|-------------|
-| K-Means               |       0.55       |      A      |
+|          Model          | Silhouette Score | Method(A/B) |
+|-------------------------|------------------|-------------|
+| K-Means                 |       0.55       |      A      |
+| Agglomerative Clustering|       0.49       |      A      |
 
