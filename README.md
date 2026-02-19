@@ -51,16 +51,15 @@ We manually analyzed the features to capture financial patterns and reduce redun
 * **Transformation:** We calculated the "Net Debt" for each month (Bill - Pay) and aggregated these into a single `Total_Debt` feature.
 * **Result:** This allowed us to drop the raw monthly columns, significantly reducing dimensionality while preserving the *financial narrative* of the data (Debt vs. Payment status).
 
-#### **Method B: Principal Component Analysis (PCA)**
-We used PCA to automatically identify orthogonal components that explain the maximum variance in the data.
-* **The Challenge:** Implementing PCA introduced a dual-optimization problem: finding the optimal number of *Principal Components* AND the optimal number of *Clusters*.
-* **Computational Cost:** A standard nested loop (testing every component count against every cluster count) proved computationally infeasible due to exponential complexity.
-* **The Solution:** Instead of a brute-force approach, we implemented a **Strategic Grid Search**. We selected representative values for component counts to balance variance retention with training time, allowing us to map performance patterns without excessive computational overhead.
-
 - [Preprocessing](/algorithms/preprocessing)
+
+#### **Method B: Principal Component Analysis (PCA)**
+
+We used PCA to automatically identify orthogonal components that explain the maximum variance in the data and reduce dimensionality based on this information as a alternative for a manual preprocessing
 
 ## 🤖 Algorithms
 - [K-Means](/algorithms/clustering_algorithms/k_means)
+- [Agglomerative Clustering](/algorithms/clustering_algorithms/agglomerative)
 
 ## 📈 Results
 **Performance Comparison:**
